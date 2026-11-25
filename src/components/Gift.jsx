@@ -4,7 +4,7 @@ import { Btn } from './ui'
 export default function Gift({ onOpen, opening }) {
   return <section className="min-h-screen flex flex-col items-center justify-center text-center px-5 gap-10 relative">
     <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className="hand text-4xl sm:text-6xl drop-shadow-lg leading-snug">
-      Hey Punam!<br />A Little Surprise Awaits You...</motion.h1>
+      Hey Dipto!<br />A Little Surprise Awaits You...</motion.h1>
     <motion.div animate={opening ? {} : { y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 3 }} className="relative w-56 h-60 sm:w-64 sm:h-72">
       <motion.div animate={{ opacity: opening ? 1 : .35, scale: opening ? 2.2 : 1 }} transition={{ duration: 1 }} className="absolute inset-0 rounded-full blur-3xl bg-yellow-200/70" />
       <div className="absolute bottom-0 inset-x-2 h-[62%] rounded-b-2xl bg-gradient-to-b from-pink-400 to-fuchsia-600 shadow-2xl">
