@@ -34,7 +34,7 @@ export default function Cake() {
       tick()
     } catch { setErr(true) }
   }
-  return <Section id="cake"><Title>Make a Wish, Punam!</Title>
+  return <Section id="cake"><Title>Make a Wish, Dipto!</Title>
     <svg viewBox="0 0 300 270" className="w-72 sm:w-96 drop-shadow-2xl" role="img" aria-label="Birthday cake">
       <ellipse cx="150" cy="250" rx="145" ry="18" fill="#e9d5ff" /><ellipse cx="150" cy="244" rx="140" ry="16" fill="#f5f3ff" />
       <Tier y={170} w={230} h={70} c1="#f9a8d4" c2="#db2777" /><Tier y={115} w={165} h={55} c1="#c4b5fd" c2="#7c3aed" /><Tier y={70} w={110} h={45} c1="#fbcfe8" c2="#ec4899" />
